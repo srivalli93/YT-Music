@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131B39BC254F18C0001935F8 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B39BB254F18C0001935F8 /* AlbumListView.swift */; };
+		131B39C4254F19F7001935F8 /* AlbumCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B39C3254F19F7001935F8 /* AlbumCardView.swift */; };
+		131B39C9254F1A52001935F8 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B39C8254F1A52001935F8 /* Album.swift */; };
+		131B3BD425511A5C001935F8 /* TopAlbumCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B3BD325511A5C001935F8 /* TopAlbumCard.swift */; };
+		131B3BD92551328C001935F8 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B3BD82551328C001935F8 /* AlbumDetailView.swift */; };
+		13308160252E5FBB0032D0B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1330815F252E5FBB0032D0B6 /* AppDelegate.swift */; };
+		13308162252E5FBB0032D0B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308161252E5FBB0032D0B6 /* SceneDelegate.swift */; };
+		13308164252E5FBB0032D0B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308163252E5FBB0032D0B6 /* ContentView.swift */; };
+		13308167252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13308165252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld */; };
+		13308169252E5FBE0032D0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13308168252E5FBE0032D0B6 /* Assets.xcassets */; };
+		1330816C252E5FBE0032D0B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1330816B252E5FBE0032D0B6 /* Preview Assets.xcassets */; };
+		1330816F252E5FBE0032D0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1330816D252E5FBE0032D0B6 /* LaunchScreen.storyboard */; };
+		1330817A252E5FBE0032D0B6 /* YT_MusiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308179252E5FBE0032D0B6 /* YT_MusiTests.swift */; };
+		13308185252E5FBE0032D0B6 /* YT_MusiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308184252E5FBE0032D0B6 /* YT_MusiUITests.swift */; };
+		135B8DDD2547C78900ADF93F /* GreenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B8DDC2547C78900ADF93F /* GreenImage.swift */; };
+		135B8DE22547CBFD00ADF93F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B8DE12547CBFD00ADF93F /* MapView.swift */; };
+		135B8DEB254A604800ADF93F /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B8DEA254A604800ADF93F /* Badge.swift */; };
+		135B8DF6254A621400ADF93F /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B8DF5254A621400ADF93F /* HexagonParameters.swift */; };
+		135B8E0C254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 135B8E0B254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 */; };
+		135B8E11254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 135B8E10254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13308176252E5FBE0032D0B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13308154252E5FBB0032D0B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1330815B252E5FBB0032D0B6;
+			remoteInfo = "YT-Musi";
+		};
+		13308181252E5FBE0032D0B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13308154252E5FBB0032D0B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1330815B252E5FBB0032D0B6;
+			remoteInfo = "YT-Musi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131B39BB254F18C0001935F8 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
+		131B39C3254F19F7001935F8 /* AlbumCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCardView.swift; sourceTree = "<group>"; };
+		131B39C8254F1A52001935F8 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		131B3BD325511A5C001935F8 /* TopAlbumCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumCard.swift; sourceTree = "<group>"; };
+		131B3BD82551328C001935F8 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		1330815C252E5FBB0032D0B6 /* YT-Musi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YT-Musi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1330815F252E5FBB0032D0B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13308161252E5FBB0032D0B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13308163252E5FBB0032D0B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13308166252E5FBB0032D0B6 /* YT_Musi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YT_Musi.xcdatamodel; sourceTree = "<group>"; };
+		13308168252E5FBE0032D0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1330816B252E5FBE0032D0B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1330816E252E5FBE0032D0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13308170252E5FBE0032D0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13308175252E5FBE0032D0B6 /* YT-MusiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YT-MusiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13308179252E5FBE0032D0B6 /* YT_MusiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YT_MusiTests.swift; sourceTree = "<group>"; };
+		1330817B252E5FBE0032D0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13308180252E5FBE0032D0B6 /* YT-MusiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YT-MusiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13308184252E5FBE0032D0B6 /* YT_MusiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YT_MusiUITests.swift; sourceTree = "<group>"; };
+		13308186252E5FBE0032D0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135B8DDC2547C78900ADF93F /* GreenImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenImage.swift; sourceTree = "<group>"; };
+		135B8DE12547CBFD00ADF93F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		135B8DEA254A604800ADF93F /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = SOURCE_ROOT; };
+		135B8DF5254A621400ADF93F /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		135B8E0B254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[iSongs.info] 05 - Arere Chandrakala.mp3"; sourceTree = "<group>"; };
+		135B8E10254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[iSongs.info] 06 - Nandalaala.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13308159252E5FBB0032D0B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13308172252E5FBE0032D0B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1330817D252E5FBE0032D0B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13308153252E5FBB0032D0B6 = {
+			isa = PBXGroup;
+			children = (
+				1330815E252E5FBB0032D0B6 /* YT-Musi */,
+				13308178252E5FBE0032D0B6 /* YT-MusiTests */,
+				13308183252E5FBE0032D0B6 /* YT-MusiUITests */,
+				1330815D252E5FBB0032D0B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1330815D252E5FBB0032D0B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1330815C252E5FBB0032D0B6 /* YT-Musi.app */,
+				13308175252E5FBE0032D0B6 /* YT-MusiTests.xctest */,
+				13308180252E5FBE0032D0B6 /* YT-MusiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1330815E252E5FBB0032D0B6 /* YT-Musi */ = {
+			isa = PBXGroup;
+			children = (
+				135B8E0A254A6DC100ADF93F /* AudioSource */,
+				135B8DE8254A5FD700ADF93F /* SampleSwiftUI */,
+				1330815F252E5FBB0032D0B6 /* AppDelegate.swift */,
+				131B39BB254F18C0001935F8 /* AlbumListView.swift */,
+				131B39C3254F19F7001935F8 /* AlbumCardView.swift */,
+				13308161252E5FBB0032D0B6 /* SceneDelegate.swift */,
+				13308168252E5FBE0032D0B6 /* Assets.xcassets */,
+				1330816D252E5FBE0032D0B6 /* LaunchScreen.storyboard */,
+				13308170252E5FBE0032D0B6 /* Info.plist */,
+				13308165252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld */,
+				1330816A252E5FBE0032D0B6 /* Preview Content */,
+				131B39C8254F1A52001935F8 /* Album.swift */,
+				131B3BD325511A5C001935F8 /* TopAlbumCard.swift */,
+				131B3BD82551328C001935F8 /* AlbumDetailView.swift */,
+			);
+			path = "YT-Musi";
+			sourceTree = "<group>";
+		};
+		1330816A252E5FBE0032D0B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1330816B252E5FBE0032D0B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13308178252E5FBE0032D0B6 /* YT-MusiTests */ = {
+			isa = PBXGroup;
+			children = (
+				13308179252E5FBE0032D0B6 /* YT_MusiTests.swift */,
+				1330817B252E5FBE0032D0B6 /* Info.plist */,
+			);
+			path = "YT-MusiTests";
+			sourceTree = "<group>";
+		};
+		13308183252E5FBE0032D0B6 /* YT-MusiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13308184252E5FBE0032D0B6 /* YT_MusiUITests.swift */,
+				13308186252E5FBE0032D0B6 /* Info.plist */,
+			);
+			path = "YT-MusiUITests";
+			sourceTree = "<group>";
+		};
+		135B8DE8254A5FD700ADF93F /* SampleSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				135B8DEA254A604800ADF93F /* Badge.swift */,
+				135B8DDC2547C78900ADF93F /* GreenImage.swift */,
+				135B8DE12547CBFD00ADF93F /* MapView.swift */,
+				13308163252E5FBB0032D0B6 /* ContentView.swift */,
+				135B8DF5254A621400ADF93F /* HexagonParameters.swift */,
+			);
+			path = SampleSwiftUI;
+			sourceTree = "<group>";
+		};
+		135B8E0A254A6DC100ADF93F /* AudioSource */ = {
+			isa = PBXGroup;
+			children = (
+				135B8E10254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 */,
+				135B8E0B254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 */,
+			);
+			path = AudioSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1330815B252E5FBB0032D0B6 /* YT-Musi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13308189252E5FBE0032D0B6 /* Build configuration list for PBXNativeTarget "YT-Musi" */;
+			buildPhases = (
+				13308158252E5FBB0032D0B6 /* Sources */,
+				13308159252E5FBB0032D0B6 /* Frameworks */,
+				1330815A252E5FBB0032D0B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YT-Musi";
+			productName = "YT-Musi";
+			productReference = 1330815C252E5FBB0032D0B6 /* YT-Musi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13308174252E5FBE0032D0B6 /* YT-MusiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1330818C252E5FBE0032D0B6 /* Build configuration list for PBXNativeTarget "YT-MusiTests" */;
+			buildPhases = (
+				13308171252E5FBE0032D0B6 /* Sources */,
+				13308172252E5FBE0032D0B6 /* Frameworks */,
+				13308173252E5FBE0032D0B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13308177252E5FBE0032D0B6 /* PBXTargetDependency */,
+			);
+			name = "YT-MusiTests";
+			productName = "YT-MusiTests";
+			productReference = 13308175252E5FBE0032D0B6 /* YT-MusiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1330817F252E5FBE0032D0B6 /* YT-MusiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1330818F252E5FBE0032D0B6 /* Build configuration list for PBXNativeTarget "YT-MusiUITests" */;
+			buildPhases = (
+				1330817C252E5FBE0032D0B6 /* Sources */,
+				1330817D252E5FBE0032D0B6 /* Frameworks */,
+				1330817E252E5FBE0032D0B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13308182252E5FBE0032D0B6 /* PBXTargetDependency */,
+			);
+			name = "YT-MusiUITests";
+			productName = "YT-MusiUITests";
+			productReference = 13308180252E5FBE0032D0B6 /* YT-MusiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13308154252E5FBB0032D0B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1330815B252E5FBB0032D0B6 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					13308174252E5FBE0032D0B6 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1330815B252E5FBB0032D0B6;
+					};
+					1330817F252E5FBE0032D0B6 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1330815B252E5FBB0032D0B6;
+					};
+				};
+			};
+			buildConfigurationList = 13308157252E5FBB0032D0B6 /* Build configuration list for PBXProject "YT-Musi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13308153252E5FBB0032D0B6;
+			productRefGroup = 1330815D252E5FBB0032D0B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1330815B252E5FBB0032D0B6 /* YT-Musi */,
+				13308174252E5FBE0032D0B6 /* YT-MusiTests */,
+				1330817F252E5FBE0032D0B6 /* YT-MusiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1330815A252E5FBB0032D0B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1330816F252E5FBE0032D0B6 /* LaunchScreen.storyboard in Resources */,
+				1330816C252E5FBE0032D0B6 /* Preview Assets.xcassets in Resources */,
+				135B8E0C254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 in Resources */,
+				13308169252E5FBE0032D0B6 /* Assets.xcassets in Resources */,
+				135B8E11254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13308173252E5FBE0032D0B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1330817E252E5FBE0032D0B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13308158252E5FBB0032D0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135B8DF6254A621400ADF93F /* HexagonParameters.swift in Sources */,
+				135B8DEB254A604800ADF93F /* Badge.swift in Sources */,
+				13308160252E5FBB0032D0B6 /* AppDelegate.swift in Sources */,
+				135B8DE22547CBFD00ADF93F /* MapView.swift in Sources */,
+				135B8DDD2547C78900ADF93F /* GreenImage.swift in Sources */,
+				131B3BD92551328C001935F8 /* AlbumDetailView.swift in Sources */,
+				131B39BC254F18C0001935F8 /* AlbumListView.swift in Sources */,
+				13308162252E5FBB0032D0B6 /* SceneDelegate.swift in Sources */,
+				131B3BD425511A5C001935F8 /* TopAlbumCard.swift in Sources */,
+				13308167252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld in Sources */,
+				131B39C9254F1A52001935F8 /* Album.swift in Sources */,
+				131B39C4254F19F7001935F8 /* AlbumCardView.swift in Sources */,
+				13308164252E5FBB0032D0B6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13308171252E5FBE0032D0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1330817A252E5FBE0032D0B6 /* YT_MusiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1330817C252E5FBE0032D0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13308185252E5FBE0032D0B6 /* YT_MusiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13308177252E5FBE0032D0B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1330815B252E5FBB0032D0B6 /* YT-Musi */;
+			targetProxy = 13308176252E5FBE0032D0B6 /* PBXContainerItemProxy */;
+		};
+		13308182252E5FBE0032D0B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1330815B252E5FBB0032D0B6 /* YT-Musi */;
+			targetProxy = 13308181252E5FBE0032D0B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1330816D252E5FBE0032D0B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1330816E252E5FBE0032D0B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13308187252E5FBE0032D0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13308188252E5FBE0032D0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1330818A252E5FBE0032D0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YT-Musi/Preview Content\"";
+				DEVELOPMENT_TEAM = 3XVHG7LDG8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YT-Musi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sasthry.YT-Musi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1330818B252E5FBE0032D0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YT-Musi/Preview Content\"";
+				DEVELOPMENT_TEAM = 3XVHG7LDG8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YT-Musi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sasthry.YT-Musi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1330818D252E5FBE0032D0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVHG7LDG8;
+				INFOPLIST_FILE = "YT-MusiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sasthry.YT-MusiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YT-Musi.app/YT-Musi";
+			};
+			name = Debug;
+		};
+		1330818E252E5FBE0032D0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVHG7LDG8;
+				INFOPLIST_FILE = "YT-MusiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sasthry.YT-MusiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YT-Musi.app/YT-Musi";
+			};
+			name = Release;
+		};
+		13308190252E5FBE0032D0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVHG7LDG8;
+				INFOPLIST_FILE = "YT-MusiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sasthry.YT-MusiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YT-Musi";
+			};
+			name = Debug;
+		};
+		13308191252E5FBE0032D0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVHG7LDG8;
+				INFOPLIST_FILE = "YT-MusiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sasthry.YT-MusiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YT-Musi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13308157252E5FBB0032D0B6 /* Build configuration list for PBXProject "YT-Musi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13308187252E5FBE0032D0B6 /* Debug */,
+				13308188252E5FBE0032D0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13308189252E5FBE0032D0B6 /* Build configuration list for PBXNativeTarget "YT-Musi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1330818A252E5FBE0032D0B6 /* Debug */,
+				1330818B252E5FBE0032D0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1330818C252E5FBE0032D0B6 /* Build configuration list for PBXNativeTarget "YT-MusiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1330818D252E5FBE0032D0B6 /* Debug */,
+				1330818E252E5FBE0032D0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1330818F252E5FBE0032D0B6 /* Build configuration list for PBXNativeTarget "YT-MusiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13308190252E5FBE0032D0B6 /* Debug */,
+				13308191252E5FBE0032D0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13308165252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13308166252E5FBB0032D0B6 /* YT_Musi.xcdatamodel */,
+			);
+			currentVersion = 13308166252E5FBB0032D0B6 /* YT_Musi.xcdatamodel */;
+			path = YT_Musi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13308154252E5FBB0032D0B6 /* Project object */;
+}
