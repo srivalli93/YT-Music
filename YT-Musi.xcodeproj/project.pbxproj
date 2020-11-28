@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,12 @@
 		131B39C9254F1A52001935F8 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B39C8254F1A52001935F8 /* Album.swift */; };
 		131B3BD425511A5C001935F8 /* TopAlbumCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B3BD325511A5C001935F8 /* TopAlbumCard.swift */; };
 		131B3BD92551328C001935F8 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B3BD82551328C001935F8 /* AlbumDetailView.swift */; };
+		131B3BE12553CD43001935F8 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B3BE02553CD43001935F8 /* PlayerView.swift */; };
+		131B3BE62553D01D001935F8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B3BE52553D01D001935F8 /* SearchView.swift */; };
+		131B3BEB2553D30E001935F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B3BEA2553D30E001935F8 /* ContentView.swift */; };
 		13308160252E5FBB0032D0B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1330815F252E5FBB0032D0B6 /* AppDelegate.swift */; };
 		13308162252E5FBB0032D0B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308161252E5FBB0032D0B6 /* SceneDelegate.swift */; };
-		13308164252E5FBB0032D0B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308163252E5FBB0032D0B6 /* ContentView.swift */; };
+		13308164252E5FBB0032D0B6 /* SampleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308163252E5FBB0032D0B6 /* SampleContentView.swift */; };
 		13308167252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13308165252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld */; };
 		13308169252E5FBE0032D0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13308168252E5FBE0032D0B6 /* Assets.xcassets */; };
 		1330816C252E5FBE0032D0B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1330816B252E5FBE0032D0B6 /* Preview Assets.xcassets */; };
@@ -27,6 +30,10 @@
 		135B8DF6254A621400ADF93F /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B8DF5254A621400ADF93F /* HexagonParameters.swift */; };
 		135B8E0C254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 135B8E0B254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 */; };
 		135B8E11254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 135B8E10254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 */; };
+		13C7532F255B94A1003DECC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13C7532E255B94A1003DECC8 /* GoogleService-Info.plist */; };
+		13C75330255B94A1003DECC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13C7532E255B94A1003DECC8 /* GoogleService-Info.plist */; };
+		13C75331255B94A1003DECC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13C7532E255B94A1003DECC8 /* GoogleService-Info.plist */; };
+		D46C24F931099BBD2850B3AF /* Pods_YT_Musi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87DA5817704449EDD5EBFBA /* Pods_YT_Musi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +59,13 @@
 		131B39C8254F1A52001935F8 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		131B3BD325511A5C001935F8 /* TopAlbumCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumCard.swift; sourceTree = "<group>"; };
 		131B3BD82551328C001935F8 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		131B3BE02553CD43001935F8 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		131B3BE52553D01D001935F8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		131B3BEA2553D30E001935F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1330815C252E5FBB0032D0B6 /* YT-Musi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YT-Musi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1330815F252E5FBB0032D0B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13308161252E5FBB0032D0B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13308163252E5FBB0032D0B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13308163252E5FBB0032D0B6 /* SampleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleContentView.swift; sourceTree = "<group>"; };
 		13308166252E5FBB0032D0B6 /* YT_Musi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YT_Musi.xcdatamodel; sourceTree = "<group>"; };
 		13308168252E5FBE0032D0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1330816B252E5FBE0032D0B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -73,6 +83,10 @@
 		135B8DF5254A621400ADF93F /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		135B8E0B254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[iSongs.info] 05 - Arere Chandrakala.mp3"; sourceTree = "<group>"; };
 		135B8E10254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[iSongs.info] 06 - Nandalaala.mp3"; sourceTree = "<group>"; };
+		13C7532E255B94A1003DECC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6B1ACE0038DAFC0680542EC /* Pods-YT-Musi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YT-Musi.release.xcconfig"; path = "Target Support Files/Pods-YT-Musi/Pods-YT-Musi.release.xcconfig"; sourceTree = "<group>"; };
+		F373359B84621ACA6A3B2F58 /* Pods-YT-Musi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YT-Musi.debug.xcconfig"; path = "Target Support Files/Pods-YT-Musi/Pods-YT-Musi.debug.xcconfig"; sourceTree = "<group>"; };
+		F87DA5817704449EDD5EBFBA /* Pods_YT_Musi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YT_Musi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46C24F931099BBD2850B3AF /* Pods_YT_Musi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,10 +118,13 @@
 		13308153252E5FBB0032D0B6 = {
 			isa = PBXGroup;
 			children = (
+				13C7532E255B94A1003DECC8 /* GoogleService-Info.plist */,
 				1330815E252E5FBB0032D0B6 /* YT-Musi */,
 				13308178252E5FBE0032D0B6 /* YT-MusiTests */,
 				13308183252E5FBE0032D0B6 /* YT-MusiUITests */,
 				1330815D252E5FBB0032D0B6 /* Products */,
+				95BD0BE79867DB943022B68E /* Pods */,
+				76CCB3596CEA049A76FF1D84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +155,9 @@
 				131B39C8254F1A52001935F8 /* Album.swift */,
 				131B3BD325511A5C001935F8 /* TopAlbumCard.swift */,
 				131B3BD82551328C001935F8 /* AlbumDetailView.swift */,
+				131B3BE02553CD43001935F8 /* PlayerView.swift */,
+				131B3BE52553D01D001935F8 /* SearchView.swift */,
+				131B3BEA2553D30E001935F8 /* ContentView.swift */,
 			);
 			path = "YT-Musi";
 			sourceTree = "<group>";
@@ -173,7 +194,7 @@
 				135B8DEA254A604800ADF93F /* Badge.swift */,
 				135B8DDC2547C78900ADF93F /* GreenImage.swift */,
 				135B8DE12547CBFD00ADF93F /* MapView.swift */,
-				13308163252E5FBB0032D0B6 /* ContentView.swift */,
+				13308163252E5FBB0032D0B6 /* SampleContentView.swift */,
 				135B8DF5254A621400ADF93F /* HexagonParameters.swift */,
 			);
 			path = SampleSwiftUI;
@@ -188,6 +209,23 @@
 			path = AudioSource;
 			sourceTree = "<group>";
 		};
+		76CCB3596CEA049A76FF1D84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87DA5817704449EDD5EBFBA /* Pods_YT_Musi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95BD0BE79867DB943022B68E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F373359B84621ACA6A3B2F58 /* Pods-YT-Musi.debug.xcconfig */,
+				D6B1ACE0038DAFC0680542EC /* Pods-YT-Musi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13308189252E5FBE0032D0B6 /* Build configuration list for PBXNativeTarget "YT-Musi" */;
 			buildPhases = (
+				3925837E7BC1DA4727A408CD /* [CP] Check Pods Manifest.lock */,
 				13308158252E5FBB0032D0B6 /* Sources */,
 				13308159252E5FBB0032D0B6 /* Frameworks */,
 				1330815A252E5FBB0032D0B6 /* Resources */,
+				95A5A016FD2A6BABA5247060 /* [CP] Embed Pods Frameworks */,
+				21C53E3311EC972BEAA4A6A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,6 +334,7 @@
 			files = (
 				1330816F252E5FBE0032D0B6 /* LaunchScreen.storyboard in Resources */,
 				1330816C252E5FBE0032D0B6 /* Preview Assets.xcassets in Resources */,
+				13C7532F255B94A1003DECC8 /* GoogleService-Info.plist in Resources */,
 				135B8E0C254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 in Resources */,
 				13308169252E5FBE0032D0B6 /* Assets.xcassets in Resources */,
 				135B8E11254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 in Resources */,
@@ -303,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C75330255B94A1003DECC8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,10 +353,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C75331255B94A1003DECC8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C53E3311EC972BEAA4A6A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YT-Musi/Pods-YT-Musi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YT-Musi/Pods-YT-Musi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YT-Musi/Pods-YT-Musi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3925837E7BC1DA4727A408CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YT-Musi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A5A016FD2A6BABA5247060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YT-Musi/Pods-YT-Musi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YT-Musi/Pods-YT-Musi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YT-Musi/Pods-YT-Musi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13308158252E5FBB0032D0B6 /* Sources */ = {
@@ -329,10 +432,13 @@
 				131B39BC254F18C0001935F8 /* AlbumListView.swift in Sources */,
 				13308162252E5FBB0032D0B6 /* SceneDelegate.swift in Sources */,
 				131B3BD425511A5C001935F8 /* TopAlbumCard.swift in Sources */,
+				131B3BE12553CD43001935F8 /* PlayerView.swift in Sources */,
+				131B3BE62553D01D001935F8 /* SearchView.swift in Sources */,
+				131B3BEB2553D30E001935F8 /* ContentView.swift in Sources */,
 				13308167252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld in Sources */,
 				131B39C9254F1A52001935F8 /* Album.swift in Sources */,
 				131B39C4254F19F7001935F8 /* AlbumCardView.swift in Sources */,
-				13308164252E5FBB0032D0B6 /* ContentView.swift in Sources */,
+				13308164252E5FBB0032D0B6 /* SampleContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +603,7 @@
 		};
 		1330818A252E5FBE0032D0B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F373359B84621ACA6A3B2F58 /* Pods-YT-Musi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -518,6 +625,7 @@
 		};
 		1330818B252E5FBE0032D0B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B1ACE0038DAFC0680542EC /* Pods-YT-Musi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

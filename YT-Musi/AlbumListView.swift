@@ -33,7 +33,7 @@ struct AlbumListView: View {
     }
 }
 
-struct MainContentView_Previews: PreviewProvider {
+struct AlbumListView_Previews: PreviewProvider {
     static var previews: some View {
         AlbumListView()
     }
