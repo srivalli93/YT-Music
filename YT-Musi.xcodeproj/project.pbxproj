@@ -24,6 +24,7 @@
 		1330816F252E5FBE0032D0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1330816D252E5FBE0032D0B6 /* LaunchScreen.storyboard */; };
 		1330817A252E5FBE0032D0B6 /* YT_MusiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308179252E5FBE0032D0B6 /* YT_MusiTests.swift */; };
 		13308185252E5FBE0032D0B6 /* YT_MusiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13308184252E5FBE0032D0B6 /* YT_MusiUITests.swift */; };
+		134E016D257228840082675B /* AudioDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134E016C257228840082675B /* AudioDataSource.swift */; };
 		135B8DDD2547C78900ADF93F /* GreenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B8DDC2547C78900ADF93F /* GreenImage.swift */; };
 		135B8DE22547CBFD00ADF93F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B8DE12547CBFD00ADF93F /* MapView.swift */; };
 		135B8DEB254A604800ADF93F /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135B8DEA254A604800ADF93F /* Badge.swift */; };
@@ -77,6 +78,7 @@
 		13308180252E5FBE0032D0B6 /* YT-MusiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YT-MusiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13308184252E5FBE0032D0B6 /* YT_MusiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YT_MusiUITests.swift; sourceTree = "<group>"; };
 		13308186252E5FBE0032D0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134E016C257228840082675B /* AudioDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDataSource.swift; sourceTree = "<group>"; };
 		135B8DDC2547C78900ADF93F /* GreenImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenImage.swift; sourceTree = "<group>"; };
 		135B8DE12547CBFD00ADF93F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		135B8DEA254A604800ADF93F /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = SOURCE_ROOT; };
@@ -205,6 +207,7 @@
 			children = (
 				135B8E10254A6E2900ADF93F /* [iSongs.info] 06 - Nandalaala.mp3 */,
 				135B8E0B254A6E1300ADF93F /* [iSongs.info] 05 - Arere Chandrakala.mp3 */,
+				134E016C257228840082675B /* AudioDataSource.swift */,
 			);
 			path = AudioSource;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				13308162252E5FBB0032D0B6 /* SceneDelegate.swift in Sources */,
 				131B3BD425511A5C001935F8 /* TopAlbumCard.swift in Sources */,
 				131B3BE12553CD43001935F8 /* PlayerView.swift in Sources */,
+				134E016D257228840082675B /* AudioDataSource.swift in Sources */,
 				131B3BE62553D01D001935F8 /* SearchView.swift in Sources */,
 				131B3BEB2553D30E001935F8 /* ContentView.swift in Sources */,
 				13308167252E5FBB0032D0B6 /* YT_Musi.xcdatamodeld in Sources */,

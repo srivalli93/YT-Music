@@ -50,6 +50,7 @@ struct SearchView: View {
                     Button(action: {
                         self.isEditing = false
                         self.searchText = ""
+                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
                     }, label: {
                        Text("Cancel")
                     })
@@ -61,7 +62,10 @@ struct SearchView: View {
             
             List {
                 
-                ForEach(songs, id: \.self) {songTitle in
+                ForEach(self.songs.filter {
+                    self.searchText.isEmpty ? true : $0.lowercased().contains(self.searchText.lowercased())
+                }, id: \.self) { songTitle in
+                    
                     HStack {
                         Image(systemName: "rectangle.stack.fill")
                             .resizable()
@@ -87,11 +91,9 @@ struct SearchView: View {
                         }
                     }
                 }
-                
-                
-                
             }
             .accentColor(.blue)
+            .navigationBarTitle(Text("Songs"))
             
         }
     }
